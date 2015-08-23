@@ -15,11 +15,11 @@ d) Assigning unique ids to each table
 d) Merging following three tables: a) measurements (x_test); b) y_test (activity); c) test_subject (subject id)
 e) Once merged table (test_fdata) is formed, remove all other tables to minimize memory use
  
- 4. Repeat all the steps in #3 for train data
+4. Repeat all the steps in #3 for train data
  
- 5. Merge test and train data into a single table fdata. Once merged remove references to all other tables to minimize more use
+5. Merge test and train data into a single table fdata. Once merged remove references to all other tables to minimize more use
  
- 6. Perform melt and cast operations to:
+6. Perform melt and cast operations to:
  a) First create a long form of data table with all the variables in a single column (with corresponding columns in next)
  b) Seoncdly create a summary table (using mean function) to create a wide form of table summarizing all the variables for each id combination
  
