@@ -21,6 +21,6 @@ The code consists of following steps:
  
 6. Perform melt and cast operations to:
  a) First create a long form of data table with all the variables in a single column (with corresponding columns in next)
- b) Seoncdly create a summary table (using mean function) to create a wide form of table summarizing all the variables for each id combination
+ b) Secondly create a summary table (using mean function) to create a wide form of table summarizing all the variables for each id combination
  
 7. Finally write the output of the summary table function 
