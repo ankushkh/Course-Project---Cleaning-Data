@@ -1,6 +1,7 @@
 
 Following are the variables (V) and transformation steps (T) performed for the data
 
+# read features and activity labels
 (V) features # contains raw data from feastures.txt
 (T) names(features) <- c("feature_id", "feature") # modifies the names of the variables to readable format
 (V) activity # contain raw data from activity_lables. txt
